@@ -1,0 +1,39 @@
+/****************/
+/* Local Styles */
+/****************/
+body {
+  background-color: whitesmoke;
+}
+header {
+  background-color: #333;
+  padding: 20px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header h1 {
+  color: #fff;
+  margin: 0 0 0 10px;
+  font-size: 1.7rem
+}
+
+.currency {
+  cursor: pointer;
+  text-align: center;  
+  width: 90px;  
+}
+
+.table-body > tr > td {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.btn-refresh {
+  border-radius: 50%;
+  color: white;
+  background-color: #4CAF50;
+  height: 4rem;
+  width: 4rem;
+}
